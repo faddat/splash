@@ -1,0 +1,15 @@
+syntax = "proto3";
+package faddat.splash.splash;
+
+option go_package = "github.com/faddat/splash/x/splash/types";
+
+import "gogoproto/gogo.proto";
+
+message Post {
+  string creator = 1;
+  string id = 2;
+  string title = 3; 
+  string body = 4; 
+  int32 jar = 5; 
+  string postwallet = 6; 
+}

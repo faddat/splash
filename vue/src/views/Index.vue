@@ -5,6 +5,7 @@
       <sp-bank-balances />
       <sp-token-send />
       <!-- this line is used by starport scaffolding # 4 -->
+		<sp-type-form path="faddat.splash.splash" type="post" :fields="[ ['creator', 1, 'string'] , ['title', 2, 'string'] , ['body', 3, 'string'] , ['jar', 4, 'int32'] , ['postwallet', 5, 'string'] ]" />
     </div>
   </div>
 </template>
